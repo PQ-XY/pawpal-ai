@@ -1,0 +1,94 @@
+{
+  "age_groups": {
+    "kitten": {
+      "name": "Kitten",
+      "age_range": "0-1 years",
+      "key_characteristics": [
+        "High energy and playfulness",
+        "Rapid growth and development",
+        "Needs frequent meals",
+        "Learning and socialization critical"
+      ],
+      "feeding": {
+        "frequency": "3-4 times per day",
+        "type": "kitten formula (higher calories and nutrients)",
+        "amount": "Follow package guidelines based on age"
+      },
+      "recommended_tasks": [
+        "feeding_frequent",
+        "playtime_multiple",
+        "training",
+        "socialization",
+        "water_refresh"
+      ],
+      "health_priorities": [
+        "Vaccinations",
+        "Deworming",
+        "Spay/neuter at 8-16 weeks",
+        "Early health screening"
+      ],
+      "exercise_needs": "Very high - multiple short play sessions daily"
+    },
+    "adult": {
+      "name": "Adult Cat",
+      "age_range": "1-7 years",
+      "key_characteristics": [
+        "Stable energy level (varies by breed)",
+        "Maintenance health care",
+        "Most active years",
+        "Peak physical condition"
+      ],
+      "feeding": {
+        "frequency": "2 times per day",
+        "type": "Adult maintenance formula",
+        "amount": "Typically 1/4 to 1/2 cup per meal"
+      },
+      "recommended_tasks": [
+        "feeding_twice_daily",
+        "playtime",
+        "grooming",
+        "water_refresh",
+        "litter_maintenance"
+      ],
+      "health_priorities": [
+        "Annual vet checkups",
+        "Preventive care (flea, tick, heartworm)",
+        "Dental care",
+        "Weight management"
+      ],
+      "exercise_needs": "Moderate - 20-30 minutes daily interactive play"
+    },
+    "senior": {
+      "name": "Senior Cat",
+      "age_range": "7+ years",
+      "key_characteristics": [
+        "Decreased activity level",
+        "Increased health monitoring needed",
+        "Possible age-related conditions",
+        "May need special diet"
+      ],
+      "feeding": {
+        "frequency": "2 times per day",
+        "type": "Senior formula (lower calories, easy to digest)",
+        "amount": "Smaller, more frequent portions preferred"
+      },
+      "recommended_tasks": [
+        "feeding_senior_formula",
+        "medication_if_needed",
+        "gentle_play",
+        "grooming",
+        "water_access",
+        "comfort_monitoring",
+        "vet_visits_frequent"
+      ],
+      "health_priorities": [
+        "Twice-yearly vet checkups",
+        "Kidney and thyroid monitoring",
+        "Dental care (tooth extraction common)",
+        "Pain management",
+        "Cognitive decline monitoring"
+      ],
+      "exercise_needs": "Low - short, gentle play sessions; mostly rest"
+    }
+  }
+}

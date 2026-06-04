@@ -1,0 +1,68 @@
+2026-04-23 17:18:22,139 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-23 17:18:22,140 | INFO | validation_timestamp | 2026-04-23T21:18:22.140395Z
+2026-04-23 17:24:16,132 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-23 17:24:16,132 | INFO | validation_timestamp | 2026-04-23T21:24:16.132447Z
+2026-04-23 17:25:18,390 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-23 17:25:18,390 | INFO | validation_timestamp | 2026-04-23T21:25:18.390824Z
+2026-04-23 17:27:00,416 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-23 17:27:00,416 | INFO | validation_timestamp | 2026-04-23T21:27:00.416487Z
+2026-04-23 17:28:41,860 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-23 17:28:41,860 | INFO | validation_timestamp | 2026-04-23T21:28:41.860842Z
+2026-04-26 14:14:51,245 | INFO | validation_result | cat=Mochi | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 14:14:51,245 | INFO | validation_timestamp | 2026-04-26T18:14:51.245824Z
+2026-04-26 14:17:54,117 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 14:17:54,118 | INFO | validation_timestamp | 2026-04-26T18:17:54.118071Z
+2026-04-26 14:18:26,028 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 14:18:26,028 | INFO | validation_timestamp | 2026-04-26T18:18:26.028662Z
+2026-04-26 14:19:28,383 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=0.94 | errors=0 | warnings=2
+2026-04-26 14:19:28,383 | WARNING | validation_warning | cat=Mochi | Plan is missing baseline daily care categories: litter, water.
+2026-04-26 14:19:28,383 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: environment_control, environmental_enrichment, exercise, grooming, litter_maintenance, monitoring_breathing, playtime_intensive, training, water_refresh.
+2026-04-26 14:19:28,383 | INFO | validation_timestamp | 2026-04-26T18:19:28.383922Z
+2026-04-26 14:20:09,469 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 14:20:09,469 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: environmental_enrichment, exercise, grooming, training, vet_visits.
+2026-04-26 14:20:09,469 | INFO | validation_timestamp | 2026-04-26T18:20:09.469427Z
+2026-04-26 14:29:00,231 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 14:29:00,232 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: medication.
+2026-04-26 14:29:00,232 | INFO | validation_timestamp | 2026-04-26T18:29:00.232193Z
+2026-04-26 14:50:25,480 | INFO | validation_result | cat=Mochi | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 14:50:25,480 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: interaction, medication.
+2026-04-26 14:50:25,480 | INFO | validation_timestamp | 2026-04-26T18:50:25.480882Z
+2026-04-26 15:45:42,404 | INFO | validation_result | cat=Mochi | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 15:45:42,405 | INFO | validation_timestamp | 2026-04-26T19:45:42.405094Z
+2026-04-26 15:46:31,377 | INFO | validation_result | cat=cake | breed=Siamese | passed=True | score=0.94 | errors=0 | warnings=2
+2026-04-26 15:46:31,378 | WARNING | validation_warning | cat=cake | Health conditions suggest medication-related tasks, but none were generated.
+2026-04-26 15:46:31,378 | WARNING | validation_warning | cat=cake | Some retrieved recommended tasks were not included: interaction, training.
+2026-04-26 15:46:31,378 | INFO | validation_timestamp | 2026-04-26T19:46:31.378425Z
+2026-04-26 16:56:31,502 | INFO | validation_result | cat=Mochi | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 16:56:31,502 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: interaction, medication.
+2026-04-26 16:56:31,502 | INFO | validation_timestamp | 2026-04-26T20:56:31.502926Z
+2026-04-26 17:00:22,444 | INFO | validation_result | cat=Mochi | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 17:00:22,444 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: medication, training.
+2026-04-26 17:00:22,444 | INFO | validation_timestamp | 2026-04-26T21:00:22.444397Z
+2026-04-26 17:01:39,302 | INFO | validation_result | cat=cake | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 17:01:39,303 | INFO | validation_timestamp | 2026-04-26T21:01:39.302987Z
+2026-04-26 17:05:16,228 | INFO | validation_result | cat=Mochi | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 17:05:16,229 | INFO | validation_timestamp | 2026-04-26T21:05:16.229274Z
+2026-04-26 17:12:14,705 | INFO | validation_result | cat=Mochi | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 17:12:14,706 | INFO | validation_timestamp | 2026-04-26T21:12:14.706108Z
+2026-04-26 21:15:49,135 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:15:49,135 | INFO | validation_timestamp | 2026-04-27T01:15:49.135912Z
+2026-04-26 21:18:48,103 | INFO | validation_result | cat=cake | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:18:48,103 | INFO | validation_timestamp | 2026-04-27T01:18:48.103794Z
+2026-04-26 21:21:26,372 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:21:26,372 | INFO | validation_timestamp | 2026-04-27T01:21:26.372886Z
+2026-04-26 21:22:22,288 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:22:22,288 | INFO | validation_timestamp | 2026-04-27T01:22:22.288377Z
+2026-04-26 21:25:49,725 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:25:49,726 | INFO | validation_timestamp | 2026-04-27T01:25:49.726152Z
+2026-04-26 21:30:40,877 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:30:40,878 | INFO | validation_timestamp | 2026-04-27T01:30:40.878267Z
+2026-04-26 21:34:46,306 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:34:46,307 | INFO | validation_timestamp | 2026-04-27T01:34:46.307224Z
+2026-04-26 21:37:31,726 | INFO | validation_result | cat=Mochi | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-26 21:37:31,726 | INFO | validation_timestamp | 2026-04-27T01:37:31.726328Z
+2026-04-26 21:41:07,739 | INFO | validation_result | cat=Mochi | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-04-26 21:41:07,739 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: training.
+2026-04-26 21:41:07,740 | INFO | validation_timestamp | 2026-04-27T01:41:07.740001Z
+2026-04-29 21:46:55,859 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-04-29 21:46:55,861 | INFO | validation_timestamp | 2026-04-30T01:46:55.861314Z

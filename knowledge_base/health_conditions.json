@@ -1,0 +1,200 @@
+{
+  "health_conditions": {
+    "chronic_kidney_disease": {
+      "name": "Chronic Kidney Disease (CKD)",
+      "severity": "high",
+      "common_in_age": "senior",
+      "care_requirements": [
+        "Prescription kidney diet (low protein, low phosphorus)",
+        "Frequent water access and hydration monitoring",
+        "Regular vet checkups (blood/urine tests)",
+        "Monitor food and water intake"
+      ],
+      "recommended_tasks": [
+        "feeding_specialized",
+        "water_bowl_refresh",
+        "medication",
+        "monitoring"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "excessive_thirst",
+        "weight_loss",
+        "poor_appetite",
+        "lethargy"
+      ]
+    },
+    "diabetes": {
+      "name": "Feline Diabetes",
+      "severity": "high",
+      "common_in_age": "adult_and_senior",
+      "care_requirements": [
+        "Insulin injections (typically twice daily)",
+        "High-protein, low-carb diet",
+        "Regular glucose monitoring",
+        "Weight management and exercise"
+      ],
+      "recommended_tasks": [
+        "medication_injection",
+        "feeding_specialized",
+        "monitoring",
+        "exercise"
+      ],
+      "task_frequency": "twice_daily_or_daily",
+      "monitoring_signs": [
+        "excessive_thirst",
+        "frequent_urination",
+        "weight_loss",
+        "lethargy"
+      ]
+    },
+    "hyperthyroidism": {
+      "name": "Hyperthyroidism",
+      "severity": "medium",
+      "common_in_age": "senior",
+      "care_requirements": [
+        "Thyroid medication (typically twice daily)",
+        "Regular thyroid level monitoring",
+        "Calorie-controlled diet",
+        "Monitor weight and behavior"
+      ],
+      "recommended_tasks": [
+        "medication",
+        "feeding_controlled",
+        "monitoring",
+        "vet_visits"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "weight_loss",
+        "hyperactivity",
+        "excessive_thirst",
+        "vomiting"
+      ]
+    },
+    "hypertrophic_cardiomyopathy": {
+      "name": "Hypertrophic Cardiomyopathy (HCM)",
+      "severity": "high",
+      "common_in_age": "adult_and_senior",
+      "care_requirements": [
+        "Heart medication as prescribed",
+        "Stress reduction and quiet environment",
+        "Limited intense exercise",
+        "Regular cardiac monitoring (echocardiogram)"
+      ],
+      "recommended_tasks": [
+        "medication",
+        "gentle_play",
+        "rest_monitoring",
+        "vet_visits"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "difficulty_breathing",
+        "lethargy",
+        "reluctance_to_play",
+        "rapid_breathing"
+      ]
+    },
+    "feline_lower_urinary_tract_disease": {
+      "name": "Feline Lower Urinary Tract Disease (FLUTD)",
+      "severity": "high",
+      "common_in_age": "adult",
+      "care_requirements": [
+        "Prescription urinary diet",
+        "Increased water intake",
+        "Clean litter box (multiple boxes recommended)",
+        "Stress reduction",
+        "Regular monitoring for symptoms"
+      ],
+      "recommended_tasks": [
+        "feeding_specialized",
+        "litter_box_cleaning",
+        "water_bowl_refresh",
+        "monitoring"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "straining_to_urinate",
+        "frequent_urination",
+        "bloody_urine",
+        "inappropriate_urination"
+      ]
+    },
+    "arthritis": {
+      "name": "Arthritis / Osteoarthritis",
+      "severity": "medium",
+      "common_in_age": "senior",
+      "care_requirements": [
+        "Pain medication as prescribed",
+        "Gentle, low-impact exercise",
+        "Easy access to food, water, and litter",
+        "Comfortable resting areas",
+        "Weight management to reduce joint stress"
+      ],
+      "recommended_tasks": [
+        "medication",
+        "gentle_play",
+        "feeding_ground_level",
+        "monitoring_mobility"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "limping",
+        "reluctance_to_jump",
+        "difficulty_climbing",
+        "stiffness_after_rest"
+      ]
+    },
+    "feline_immunodeficiency_virus": {
+      "name": "Feline Immunodeficiency Virus (FIV)",
+      "severity": "high",
+      "common_in_age": "any",
+      "care_requirements": [
+        "Keep indoors to prevent spread",
+        "Regular veterinary monitoring",
+        "Vaccinations and preventive care",
+        "Monitor for secondary infections",
+        "Nutritious diet to support immune system"
+      ],
+      "recommended_tasks": [
+        "feeding_quality",
+        "medication_as_needed",
+        "vet_visits",
+        "monitoring"
+      ],
+      "task_frequency": "as_needed",
+      "monitoring_signs": [
+        "recurrent_infections",
+        "poor_coat_condition",
+        "mouth_sores",
+        "lethargy"
+      ]
+    },
+    "asthma": {
+      "name": "Feline Asthma",
+      "severity": "medium",
+      "common_in_age": "any",
+      "care_requirements": [
+        "Inhalers or medications as prescribed",
+        "Minimize environmental triggers (dust, smoke, allergens)",
+        "Regular vet monitoring",
+        "Avoid stress",
+        "Weight management"
+      ],
+      "recommended_tasks": [
+        "medication",
+        "environment_control",
+        "monitoring_breathing",
+        "vet_visits"
+      ],
+      "task_frequency": "daily",
+      "monitoring_signs": [
+        "coughing",
+        "wheezing",
+        "difficulty_breathing",
+        "lethargy"
+      ]
+    }
+  }
+}

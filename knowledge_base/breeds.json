@@ -1,0 +1,156 @@
+{
+  "breeds": {
+    "persian": {
+      "name": "Persian",
+      "energy_level": "low",
+      "grooming_needs": "high",
+      "social_needs": "medium",
+      "special_care": [
+        "Daily brushing required to prevent matting",
+        "Regular eye cleaning (tear staining)",
+        "Sensitive to heat and humidity"
+      ],
+      "recommended_tasks": [
+        "grooming",
+        "feeding",
+        "playtime",
+        "eye_care"
+      ],
+      "health_predispositions": [
+        "polycystic_kidney_disease",
+        "hypertrophic_cardiomyopathy",
+        "respiratory_issues"
+      ]
+    },
+    "siamese": {
+      "name": "Siamese",
+      "energy_level": "high",
+      "grooming_needs": "low",
+      "social_needs": "high",
+      "special_care": [
+        "Very vocal and social - needs attention",
+        "Intelligent - requires mental stimulation",
+        "Prone to separation anxiety"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "playtime",
+        "training",
+        "interaction"
+      ],
+      "health_predispositions": [
+        "crossed_eyes",
+        "progressive_retinal_atrophy",
+        "asthma"
+      ]
+    },
+    "maine_coon": {
+      "name": "Maine Coon",
+      "energy_level": "high",
+      "grooming_needs": "high",
+      "social_needs": "high",
+      "special_care": [
+        "Large breed - needs more food and water",
+        "Thicker coat requires regular brushing",
+        "Playful and dog-like personality"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "grooming",
+        "playtime",
+        "training"
+      ],
+      "health_predispositions": [
+        "hypertrophic_cardiomyopathy",
+        "hip_dysplasia",
+        "spinal_muscular_atrophy"
+      ]
+    },
+    "domestic_shorthair": {
+      "name": "Domestic Shorthair",
+      "energy_level": "medium",
+      "grooming_needs": "low",
+      "social_needs": "medium",
+      "special_care": [
+        "Varied personalities and energy levels",
+        "Generally hardy and adaptable",
+        "Minimal grooming needs",
+        "Good for first-time cat owners"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "playtime",
+        "monitoring"
+      ],
+      "health_predispositions": [
+        "generally_hardy"
+      ]
+    },
+    "abyssinian": {
+      "name": "Abyssinian",
+      "energy_level": "very_high",
+      "grooming_needs": "low",
+      "social_needs": "high",
+      "special_care": [
+        "Extremely active and athletic - needs lots of vertical space",
+        "Intelligent and curious - requires mental stimulation",
+        "Social and people-oriented - dislikes being alone",
+        "Needs interactive play and climbing structures"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "playtime_intensive",
+        "training",
+        "exercise",
+        "environmental_enrichment"
+      ],
+      "health_predispositions": [
+        "progressive_retinal_atrophy",
+        "renal_amyloidosis"
+      ]
+    },
+    "bengal": {
+      "name": "Bengal",
+      "energy_level": "very_high",
+      "grooming_needs": "low",
+      "social_needs": "high",
+      "special_care": [
+        "Extremely active - needs lots of exercise",
+        "Intelligent and can learn tricks",
+        "Needs environmental enrichment"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "playtime",
+        "training",
+        "exercise"
+      ],
+      "health_predispositions": [
+        "progressive_retinal_atrophy",
+        "hypertrophic_cardiomyopathy"
+      ]
+    },
+    "ragdoll": {
+      "name": "Ragdoll",
+      "energy_level": "medium",
+      "grooming_needs": "high",
+      "social_needs": "high",
+      "special_care": [
+        "Semi-long coat requires regular brushing",
+        "Docile and gentle - enjoys human company",
+        "Can be sensitive to stress"
+      ],
+      "recommended_tasks": [
+        "feeding",
+        "grooming",
+        "playtime",
+        "interaction"
+      ],
+      "health_predispositions": [
+        "hypertrophic_cardiomyopathy",
+        "polycystic_kidney_disease",
+        "progressive_retinal_atrophy"
+      ]
+    }
+  }
+}

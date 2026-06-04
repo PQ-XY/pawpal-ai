@@ -1,0 +1,215 @@
+{
+  "task_templates": {
+    "feeding": {
+      "name": "Feeding",
+      "description": "Feed the cat their meal",
+      "priority_default": 4,
+      "duration_minutes": 5,
+      "frequency_suggestions": {
+        "kitten": "3-4 times daily",
+        "adult": "2 times daily",
+        "senior": "2 times daily"
+      },
+      "time_suggestions": [
+        "8:00 AM",
+        "12:00 PM",
+        "5:00 PM",
+        "8:00 PM"
+      ],
+      "notes": "Feed at consistent times. Measure portions carefully.",
+      "breed_variations": {
+        "persian": "Feed in quiet area due to flat face - may have difficulty eating",
+        "maine_coon": "Larger portions - may eat more than other breeds",
+        "bengal": "Feed frequently high-protein diet, can be food motivated",
+        "abyssinian": "High-energy breed - ensure adequate portions to support metabolism"
+      }
+    },
+    "water_bowl_refresh": {
+      "name": "Refresh Water Bowl",
+      "description": "Change water and refresh the water bowl",
+      "priority_default": 4,
+      "duration_minutes": 2,
+      "frequency_suggestions": {
+        "kitten": "2-3 times daily",
+        "adult": "1-2 times daily",
+        "senior": "2 times daily (critical for kidney health)"
+      },
+      "time_suggestions": [
+        "Morning",
+        "Afternoon",
+        "Evening"
+      ],
+      "notes": "Fresh water daily. Multiple water bowls recommended.",
+      "health_importance": {
+        "chronic_kidney_disease": "critical",
+        "diabetes": "very_important",
+        "urinary_tract_disease": "very_important"
+      }
+    },
+    "litter_box_cleaning": {
+      "name": "Litter Box Cleaning",
+      "description": "Scoop clumps from litter box and add fresh litter",
+      "priority_default": 5,
+      "duration_minutes": 10,
+      "frequency_suggestions": {
+        "kitten": "2-3 times daily",
+        "adult": "1-2 times daily",
+        "senior": "2 times daily"
+      },
+      "time_suggestions": [
+        "Morning",
+        "Evening"
+      ],
+      "notes": "Use appropriate litter for health conditions. Multiple boxes recommended.",
+      "health_importance": {
+        "urinary_tract_disease": "critical",
+        "kidney_disease": "very_important"
+      }
+    },
+    "playtime": {
+      "name": "Playtime",
+      "description": "Interactive play session with cat",
+      "priority_default": 3,
+      "duration_minutes": 15,
+      "frequency_suggestions": {
+        "kitten": "3-4 sessions daily",
+        "adult": "2 sessions daily",
+        "senior": "1 gentle session daily"
+      },
+      "time_suggestions": [
+        "10:00 AM",
+        "3:00 PM",
+        "7:00 PM"
+      ],
+      "notes": "Use toys, wand toys, or laser pointers. Observe energy level.",
+      "breed_variations": {
+        "siamese": "High energy - needs frequent interactive play",
+        "bengal": "Very high energy - needs 30+ minutes daily",
+        "abyssinian": "Very high energy - needs 30+ minutes daily, loves climbing and vertical play",
+        "persian": "Low energy - keep play sessions short and gentle",
+        "domestic_shorthair": "Moderate energy - 15-20 minutes sufficient, varies by individual"
+      },
+      "health_cautions": {
+        "hypertrophic_cardiomyopathy": "Keep play gentle, monitor for fatigue",
+        "arthritis": "Avoid jumping activities, use ground-level toys"
+      }
+    },
+    "grooming": {
+      "name": "Grooming",
+      "description": "Brush coat and check for tangles or mats",
+      "priority_default": 3,
+      "duration_minutes": 15,
+      "frequency_suggestions": {
+        "kitten": "2-3 times weekly",
+        "adult": "Varies by breed",
+        "senior": "Daily for long-haired breeds"
+      },
+      "time_suggestions": [
+        "Morning",
+        "Evening"
+      ],
+      "notes": "Use appropriate brush for coat type. Check for mats.",
+      "breed_variations": {
+        "persian": "Daily brushing essential - prevents matting and breathing issues",
+        "siamese": "Weekly brushing - minimal grooming needs",
+        "maine_coon": "2-3 times weekly - thick coat",
+        "domestic_shorthair": "Weekly brushing - minimal shedding",
+        "ragdoll": "3 times weekly - prevent matting",
+        "bengal": "Weekly - minimal grooming",
+        "abyssinian": "Weekly brushing - minimal grooming needs"
+      }
+    },
+    "medication": {
+      "name": "Medication",
+      "description": "Administer prescribed medication",
+      "priority_default": 5,
+      "duration_minutes": 5,
+      "frequency_suggestions": {
+        "as_needed": "As prescribed by veterinarian"
+      },
+      "time_suggestions": [
+        "With meals",
+        "Morning",
+        "Evening",
+        "Twice daily"
+      ],
+      "notes": "Follow vet instructions exactly. Set reminders.",
+      "common_medications": [
+        "Insulin (diabetes)",
+        "Thyroid medication (hyperthyroidism)",
+        "Cardiac medication (heart disease)",
+        "Pain medication (arthritis)",
+        "Anti-inflammatory (asthma)"
+      ]
+    },
+    "eye_care": {
+      "name": "Eye Care",
+      "description": "Clean eyes and check for discharge or issues",
+      "priority_default": 2,
+      "duration_minutes": 5,
+      "frequency_suggestions": {
+        "kitten": "As needed",
+        "adult": "As needed",
+        "senior": "Daily if tear staining"
+      },
+      "time_suggestions": [
+        "Morning",
+        "Evening"
+      ],
+      "notes": "Use warm water and soft cloth. Contact vet if excessive discharge.",
+      "breed_variations": {
+        "persian": "Daily cleaning - prone to tear staining"
+      }
+    },
+    "dental_care": {
+      "name": "Dental Care",
+      "description": "Brush teeth or provide dental care",
+      "priority_default": 2,
+      "duration_minutes": 5,
+      "frequency_suggestions": {
+        "adult": "Daily or 3-4 times weekly",
+        "senior": "Daily recommended"
+      },
+      "time_suggestions": [
+        "Morning",
+        "Evening"
+      ],
+      "notes": "Use cat-specific toothpaste. Start gradually if not used to it."
+    },
+    "monitoring": {
+      "name": "Health Monitoring",
+      "description": "Monitor cat's health, appetite, energy, litter habits",
+      "priority_default": 4,
+      "duration_minutes": 5,
+      "frequency_suggestions": {
+        "healthy_adult": "Daily",
+        "health_condition": "Multiple times daily"
+      },
+      "time_suggestions": [
+        "Morning check",
+        "Evening check"
+      ],
+      "notes": "Track appetite, water intake, litter habits, energy level, behavior changes.",
+      "health_importance": {
+        "chronic_kidney_disease": "critical",
+        "diabetes": "critical",
+        "hyperthyroidism": "very_important"
+      }
+    },
+    "vet_visit": {
+      "name": "Veterinary Checkup",
+      "description": "Annual or scheduled veterinary visit",
+      "priority_default": 4,
+      "duration_minutes": 60,
+      "frequency_suggestions": {
+        "kitten": "Every 3-4 weeks until 16 weeks old",
+        "adult": "Annually",
+        "senior": "Twice yearly"
+      },
+      "time_suggestions": [
+        "Schedule in advance"
+      ],
+      "notes": "Bring medical records. Prepare list of concerns."
+    }
+  }
+}
