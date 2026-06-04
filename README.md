@@ -48,7 +48,7 @@ Loom video link: https://www.loom.com/share/88cdb91789b6442193d4a1d499d4472b
   - age groups
   - health conditions
   - task templates
-- **Agentic AI planning** with Gemma:
+- **Agentic AI planning** with Gemini:
   - retrieves context
   - generates structured task plan
   - returns rationale and confidence per task
