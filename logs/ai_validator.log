@@ -66,3 +66,20 @@
 2026-04-26 21:41:07,740 | INFO | validation_timestamp | 2026-04-27T01:41:07.740001Z
 2026-04-29 21:46:55,859 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
 2026-04-29 21:46:55,861 | INFO | validation_timestamp | 2026-04-30T01:46:55.861314Z
+2026-06-04 16:36:17,031 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,032 | INFO | validation_timestamp | 2026-06-04T20:36:17.032022Z
+2026-06-04 16:36:17,061 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,061 | INFO | validation_timestamp | 2026-06-04T20:36:17.061598Z
+2026-06-04 16:36:17,089 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,089 | INFO | validation_timestamp | 2026-06-04T20:36:17.089507Z
+2026-06-04 16:36:17,119 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,119 | INFO | validation_timestamp | 2026-06-04T20:36:17.119124Z
+2026-06-04 16:36:17,147 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,147 | INFO | validation_timestamp | 2026-06-04T20:36:17.147136Z
+2026-06-04 16:36:17,176 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,177 | INFO | validation_timestamp | 2026-06-04T20:36:17.177093Z
+2026-06-04 16:36:17,205 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-04 16:36:17,206 | INFO | validation_timestamp | 2026-06-04T20:36:17.206044Z
+2026-06-04 16:36:17,287 | INFO | validation_result | cat=Smokey | breed=Siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-04 16:36:17,287 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-04 16:36:17,287 | INFO | validation_timestamp | 2026-06-04T20:36:17.287959Z
