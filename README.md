@@ -65,6 +65,8 @@ Loom video link: https://www.loom.com/share/88cdb91789b6442193d4a1d499d4472b
 - **Human-in-the-loop control**:
   - user reviews plan, warnings, and score
   - user chooses exactly which suggested tasks to add (not all-or-nothing)
+- **MCP server**:
+  - approved tasks are scheduled to a local MCP calendar server (FastMCP); the app calls MCP tools to create calendar events
 
 ---
 
@@ -102,7 +104,8 @@ graph TD
     F --> H[Human Review]
     G --> H
     H --> I[Add Approved Tasks to Scheduler]
-    I --> J[Schedule, Conflicts, Dashboard]
+        I --> M[MCP Calendar Server]
+        M --> J[Schedule, Conflicts, Dashboard]
 ```
 
 ---
@@ -199,6 +202,14 @@ python -m pytest tests/test_pawpal.py -v
 streamlit run app.py
 ```
 
+Optional: the MCP calendar server used by the app runs as a local FastMCP process. The app will launch the server via stdio when scheduling, but you can run it separately for debugging or inspection:
+
+```bash
+python -m mcp_server.calendar_server
+# Inspect with the MCP inspector (node/npm required):
+npx @modelcontextprotocol/inspector python -m mcp_server.calendar_server
+```
+
 ---
 
 ## How AI Planning Works in the UI
@@ -214,6 +225,7 @@ streamlit run app.py
    - validation warnings/errors
    - suggested tasks table
 6. Select the suggested tasks you want, then click **Add Selected AI Tasks**
+7. Selected tasks are sent to the MCP calendar server and stored as scheduled events.
 
 ---
 

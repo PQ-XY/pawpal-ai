@@ -317,6 +317,26 @@ if st.session_state.owner and st.session_state.pets:
                         added += 1
 
                     st.success(f"✅ Added {added} selected AI task(s) to the schedule.")
+
+                    # Also schedule approved tasks on the MCP calendar server.
+                    # Prepare the approved task dicts expected by schedule_approved_tasks.
+                    approved_tasks = []
+                    for _idx, task in selected_tasks:
+                        approved_tasks.append({
+                            "task_type": task.get("task_type", "task"),
+                            "description": task.get("description", "AI-generated cat care task"),
+                            "suggested_time": task.get("suggested_time", ""),
+                            "priority": int(task.get("priority", 3) or 3),
+                        })
+
+                    try:
+                        from mcp_server.schedule_tasks import schedule_approved_tasks
+
+                        scheduled = schedule_approved_tasks(cat_name=ai_pet.name, approved_tasks=approved_tasks)
+                        st.success(f"📅 Scheduled {len(scheduled)} event(s) on MCP calendar.")
+                    except Exception as e:
+                        st.warning(f"Could not schedule events on MCP server: {e}")
+
                     st.rerun()
 else:
     st.info("Initialize owner and add at least one cat to use AI planning.")
