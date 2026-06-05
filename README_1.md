@@ -183,8 +183,7 @@ the eval's coverage check does not credit it. *Judgment call:* mapping the
 variants → `monitoring` would lift clean-set pass to ~100%, but arguably games
 the metric. Documented rather than silently patched.
 
-**Failure 3 — LLM-judge vs human disagreements (cases: FILL IN from
-`eval/kappa_report.json`).**
+**Failure 3 — LLM-judge vs human disagreements (cases: `case_05` and `case_13`).**
 The 2 kappa disagreements are plans where Gemini added generally-valid care
 (dental / vet) absent from the retrieved context. The human labeled these
 grounded (reasonable baseline advice); the judge labeled them not grounded
