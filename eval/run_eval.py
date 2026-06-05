@@ -49,6 +49,28 @@ def normalize_task_type(raw: str) -> str:
     return norm or ""
 
 
+# Qualifiers that negate/limit a forbidden phrase, turning "intense exercise"
+# (bad) into "limited intense exercise" / "avoid intense exercise" (safe advice).
+_NEGATORS = ("limited", "limit", "avoid", "avoids", "avoiding", "no ", "not ",
+             "never", "restrict", "restricted", "minimize", "minimise",
+             "reduce", "reduced", "less", "without", "prevent", "discourage")
+
+
+def _forbidden_present(phrase: str, text: str) -> bool:
+    """True only if `phrase` appears in `text` WITHOUT a negating qualifier
+    immediately preceding it. Looks at the ~25 chars before each match for a
+    negator so safe, limiting advice is not counted as a violation."""
+    start = 0
+    while True:
+        i = text.find(phrase, start)
+        if i == -1:
+            return False
+        window = text[max(0, i - 25):i]
+        if not any(neg in window for neg in _NEGATORS):
+            return True  # an unqualified (true) violation
+        start = i + len(phrase)
+
+
 def load_golden(path: Path = GOLDEN_PATH) -> List[Dict[str, Any]]:
     cases = []
     with open(path, "r", encoding="utf-8") as fh:
@@ -101,8 +123,11 @@ def score_case(case: Dict[str, Any], result: Dict[str, Any]) -> Dict[str, Any]:
     grounding_score = len(grounded) / len(expected_ground) if expected_ground else 1.0
 
     # --- forbidden (should NOT appear) ---
+    # Negation-aware: a forbidden phrase preceded by a negating qualifier
+    # (e.g. "limited intense exercise", "avoid intense exercise") is SAFE advice,
+    # not a violation. A naive substring match would false-positive on these.
     forbidden = case.get("forbidden_facts", [])
-    violations = [f for f in forbidden if f.lower() in full_blob]
+    violations = [f for f in forbidden if _forbidden_present(f.lower(), full_blob)]
     forbidden_clean = len(violations) == 0
 
     # --- combined per-case pass: coverage + grounding thresholds, no violations ---

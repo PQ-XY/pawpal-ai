@@ -286,3 +286,235 @@
 2026-06-05 13:56:12,030 | WARNING | validation_warning | cat=Olive | Plan is missing baseline daily care categories: water.
 2026-06-05 13:56:12,030 | WARNING | validation_warning | cat=Olive | Some retrieved recommended tasks were not included: comfort_monitoring, feeding_ground_level, gentle_play, medication_if_needed, monitoring_mobility, playtime, rest_monitoring, vet_visits_frequent, water_access.
 2026-06-05 13:56:12,030 | INFO | validation_timestamp | 2026-06-05T17:56:12.030316Z
+2026-06-05 14:04:01,085 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,086 | INFO | validation_timestamp | 2026-06-05T18:04:01.085887Z
+2026-06-05 14:04:01,086 | INFO | validation_result | cat=Luna | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,086 | INFO | validation_timestamp | 2026-06-05T18:04:01.086444Z
+2026-06-05 14:04:01,086 | INFO | validation_result | cat=Shadow | breed=Siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,086 | INFO | validation_timestamp | 2026-06-05T18:04:01.086696Z
+2026-06-05 14:04:01,086 | INFO | validation_result | cat=Biscuit | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,086 | INFO | validation_timestamp | 2026-06-05T18:04:01.086933Z
+2026-06-05 14:04:01,087 | INFO | validation_result | cat=Pixel | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,087 | INFO | validation_timestamp | 2026-06-05T18:04:01.087259Z
+2026-06-05 14:04:01,087 | INFO | validation_result | cat=Tiny | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,087 | WARNING | validation_warning | cat=Tiny | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,087 | INFO | validation_timestamp | 2026-06-05T18:04:01.087540Z
+2026-06-05 14:04:01,087 | INFO | validation_result | cat=Whiskers | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,087 | WARNING | validation_warning | cat=Whiskers | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,087 | INFO | validation_timestamp | 2026-06-05T18:04:01.087808Z
+2026-06-05 14:04:01,088 | INFO | validation_result | cat=Ginger | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,088 | INFO | validation_timestamp | 2026-06-05T18:04:01.088051Z
+2026-06-05 14:04:01,088 | INFO | validation_result | cat=Smokey | breed=Siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,088 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,088 | INFO | validation_timestamp | 2026-06-05T18:04:01.088383Z
+2026-06-05 14:04:01,088 | INFO | validation_result | cat=Boots | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,088 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,088 | INFO | validation_timestamp | 2026-06-05T18:04:01.088720Z
+2026-06-05 14:04:01,088 | INFO | validation_result | cat=Cleo | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,089 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,089 | INFO | validation_timestamp | 2026-06-05T18:04:01.089031Z
+2026-06-05 14:04:01,089 | INFO | validation_result | cat=Felix | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,089 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,089 | INFO | validation_timestamp | 2026-06-05T18:04:01.089338Z
+2026-06-05 14:04:01,089 | INFO | validation_result | cat=Patches | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,089 | INFO | validation_timestamp | 2026-06-05T18:04:01.089617Z
+2026-06-05 14:04:01,089 | INFO | validation_result | cat=Oreo | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,089 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,089 | INFO | validation_timestamp | 2026-06-05T18:04:01.089926Z
+2026-06-05 14:04:01,090 | INFO | validation_result | cat=Milo | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,090 | INFO | validation_timestamp | 2026-06-05T18:04:01.090209Z
+2026-06-05 14:04:01,090 | INFO | validation_result | cat=Nala | breed=Siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,090 | INFO | validation_timestamp | 2026-06-05T18:04:01.090673Z
+2026-06-05 14:04:01,090 | INFO | validation_result | cat=Simba | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,091 | INFO | validation_timestamp | 2026-06-05T18:04:01.090996Z
+2026-06-05 14:04:01,091 | INFO | validation_result | cat=Coco | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,091 | WARNING | validation_warning | cat=Coco | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,091 | INFO | validation_timestamp | 2026-06-05T18:04:01.091860Z
+2026-06-05 14:04:01,092 | INFO | validation_result | cat=Bella | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,092 | WARNING | validation_warning | cat=Bella | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,092 | INFO | validation_timestamp | 2026-06-05T18:04:01.092131Z
+2026-06-05 14:04:01,092 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,092 | INFO | validation_timestamp | 2026-06-05T18:04:01.092349Z
+2026-06-05 14:04:01,092 | INFO | validation_result | cat=Lily | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,092 | WARNING | validation_warning | cat=Lily | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,092 | INFO | validation_timestamp | 2026-06-05T18:04:01.092648Z
+2026-06-05 14:04:01,092 | INFO | validation_result | cat=Rocky | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:04:01,092 | INFO | validation_timestamp | 2026-06-05T18:04:01.092935Z
+2026-06-05 14:04:01,093 | INFO | validation_result | cat=Daisy | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,093 | WARNING | validation_warning | cat=Daisy | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,093 | INFO | validation_timestamp | 2026-06-05T18:04:01.093257Z
+2026-06-05 14:04:01,093 | INFO | validation_result | cat=Max | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,093 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,093 | INFO | validation_timestamp | 2026-06-05T18:04:01.093618Z
+2026-06-05 14:04:01,093 | INFO | validation_result | cat=Olive | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:04:01,093 | WARNING | validation_warning | cat=Olive | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:04:01,093 | INFO | validation_timestamp | 2026-06-05T18:04:01.093976Z
+2026-06-05 14:05:28,207 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,207 | INFO | validation_timestamp | 2026-06-05T18:05:28.207467Z
+2026-06-05 14:05:28,207 | INFO | validation_result | cat=Luna | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,207 | INFO | validation_timestamp | 2026-06-05T18:05:28.207908Z
+2026-06-05 14:05:28,208 | INFO | validation_result | cat=Shadow | breed=Siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,208 | INFO | validation_timestamp | 2026-06-05T18:05:28.208125Z
+2026-06-05 14:05:28,208 | INFO | validation_result | cat=Biscuit | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,208 | INFO | validation_timestamp | 2026-06-05T18:05:28.208327Z
+2026-06-05 14:05:28,208 | INFO | validation_result | cat=Pixel | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,208 | INFO | validation_timestamp | 2026-06-05T18:05:28.208545Z
+2026-06-05 14:05:28,208 | INFO | validation_result | cat=Tiny | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,208 | WARNING | validation_warning | cat=Tiny | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,208 | INFO | validation_timestamp | 2026-06-05T18:05:28.208773Z
+2026-06-05 14:05:28,208 | INFO | validation_result | cat=Whiskers | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,208 | WARNING | validation_warning | cat=Whiskers | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,209 | INFO | validation_timestamp | 2026-06-05T18:05:28.209000Z
+2026-06-05 14:05:28,209 | INFO | validation_result | cat=Ginger | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,209 | INFO | validation_timestamp | 2026-06-05T18:05:28.209203Z
+2026-06-05 14:05:28,209 | INFO | validation_result | cat=Smokey | breed=Siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,209 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,209 | INFO | validation_timestamp | 2026-06-05T18:05:28.209478Z
+2026-06-05 14:05:28,209 | INFO | validation_result | cat=Boots | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,209 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,209 | INFO | validation_timestamp | 2026-06-05T18:05:28.209765Z
+2026-06-05 14:05:28,209 | INFO | validation_result | cat=Cleo | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,210 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,210 | INFO | validation_timestamp | 2026-06-05T18:05:28.210035Z
+2026-06-05 14:05:28,210 | INFO | validation_result | cat=Felix | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,210 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,210 | INFO | validation_timestamp | 2026-06-05T18:05:28.210309Z
+2026-06-05 14:05:28,210 | INFO | validation_result | cat=Patches | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,210 | INFO | validation_timestamp | 2026-06-05T18:05:28.210543Z
+2026-06-05 14:05:28,210 | INFO | validation_result | cat=Oreo | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,210 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,210 | INFO | validation_timestamp | 2026-06-05T18:05:28.210804Z
+2026-06-05 14:05:28,211 | INFO | validation_result | cat=Milo | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,211 | INFO | validation_timestamp | 2026-06-05T18:05:28.211215Z
+2026-06-05 14:05:28,211 | INFO | validation_result | cat=Nala | breed=Siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,211 | INFO | validation_timestamp | 2026-06-05T18:05:28.211571Z
+2026-06-05 14:05:28,211 | INFO | validation_result | cat=Simba | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,211 | INFO | validation_timestamp | 2026-06-05T18:05:28.211968Z
+2026-06-05 14:05:28,212 | INFO | validation_result | cat=Coco | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,212 | WARNING | validation_warning | cat=Coco | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,212 | INFO | validation_timestamp | 2026-06-05T18:05:28.212285Z
+2026-06-05 14:05:28,212 | INFO | validation_result | cat=Bella | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,212 | WARNING | validation_warning | cat=Bella | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,212 | INFO | validation_timestamp | 2026-06-05T18:05:28.212839Z
+2026-06-05 14:05:28,213 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,213 | INFO | validation_timestamp | 2026-06-05T18:05:28.213140Z
+2026-06-05 14:05:28,213 | INFO | validation_result | cat=Lily | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,213 | WARNING | validation_warning | cat=Lily | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,213 | INFO | validation_timestamp | 2026-06-05T18:05:28.213520Z
+2026-06-05 14:05:28,213 | INFO | validation_result | cat=Rocky | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:28,213 | INFO | validation_timestamp | 2026-06-05T18:05:28.213810Z
+2026-06-05 14:05:28,214 | INFO | validation_result | cat=Daisy | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,214 | WARNING | validation_warning | cat=Daisy | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,214 | INFO | validation_timestamp | 2026-06-05T18:05:28.214113Z
+2026-06-05 14:05:28,214 | INFO | validation_result | cat=Max | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,214 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,214 | INFO | validation_timestamp | 2026-06-05T18:05:28.214417Z
+2026-06-05 14:05:28,214 | INFO | validation_result | cat=Olive | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:28,214 | WARNING | validation_warning | cat=Olive | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:28,214 | INFO | validation_timestamp | 2026-06-05T18:05:28.214716Z
+2026-06-05 14:05:46,184 | INFO | validation_result | cat=Smokey | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,185 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,185 | INFO | validation_timestamp | 2026-06-05T18:05:46.185053Z
+2026-06-05 14:05:46,185 | INFO | validation_result | cat=Boots | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,185 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,185 | INFO | validation_timestamp | 2026-06-05T18:05:46.185659Z
+2026-06-05 14:05:46,185 | INFO | validation_result | cat=Cleo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,185 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,185 | INFO | validation_timestamp | 2026-06-05T18:05:46.185966Z
+2026-06-05 14:05:46,186 | INFO | validation_result | cat=Felix | breed=ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,186 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,186 | INFO | validation_timestamp | 2026-06-05T18:05:46.186247Z
+2026-06-05 14:05:46,186 | INFO | validation_result | cat=Patches | breed=domestic_shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:46,186 | INFO | validation_timestamp | 2026-06-05T18:05:46.186492Z
+2026-06-05 14:05:46,186 | INFO | validation_result | cat=Oreo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,186 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,186 | INFO | validation_timestamp | 2026-06-05T18:05:46.186756Z
+2026-06-05 14:05:46,186 | INFO | validation_result | cat=Milo | breed=bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:46,187 | INFO | validation_timestamp | 2026-06-05T18:05:46.187000Z
+2026-06-05 14:05:46,187 | INFO | validation_result | cat=Nala | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,187 | WARNING | validation_warning | cat=Nala | Health conditions suggest medication-related tasks, but none were generated.
+2026-06-05 14:05:46,187 | INFO | validation_timestamp | 2026-06-05T18:05:46.187257Z
+2026-06-05 14:05:46,187 | INFO | validation_result | cat=Coco | breed=abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:05:46,187 | INFO | validation_timestamp | 2026-06-05T18:05:46.187508Z
+2026-06-05 14:05:46,187 | INFO | validation_result | cat=Max | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:05:46,187 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:05:46,187 | INFO | validation_timestamp | 2026-06-05T18:05:46.187850Z
+2026-06-05 14:06:08,563 | INFO | validation_result | cat=Smokey | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,563 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,563 | INFO | validation_timestamp | 2026-06-05T18:06:08.563391Z
+2026-06-05 14:06:08,563 | INFO | validation_result | cat=Boots | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,563 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,563 | INFO | validation_timestamp | 2026-06-05T18:06:08.563969Z
+2026-06-05 14:06:08,564 | INFO | validation_result | cat=Cleo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,564 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,564 | INFO | validation_timestamp | 2026-06-05T18:06:08.564277Z
+2026-06-05 14:06:08,564 | INFO | validation_result | cat=Felix | breed=ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,564 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,564 | INFO | validation_timestamp | 2026-06-05T18:06:08.564568Z
+2026-06-05 14:06:08,564 | INFO | validation_result | cat=Patches | breed=domestic_shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:08,564 | INFO | validation_timestamp | 2026-06-05T18:06:08.564813Z
+2026-06-05 14:06:08,565 | INFO | validation_result | cat=Oreo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,565 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,565 | INFO | validation_timestamp | 2026-06-05T18:06:08.565077Z
+2026-06-05 14:06:08,565 | INFO | validation_result | cat=Milo | breed=bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:08,565 | INFO | validation_timestamp | 2026-06-05T18:06:08.565323Z
+2026-06-05 14:06:08,565 | INFO | validation_result | cat=Nala | breed=siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:08,565 | INFO | validation_timestamp | 2026-06-05T18:06:08.565563Z
+2026-06-05 14:06:08,566 | INFO | validation_result | cat=Coco | breed=abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:08,566 | INFO | validation_timestamp | 2026-06-05T18:06:08.566029Z
+2026-06-05 14:06:08,566 | INFO | validation_result | cat=Max | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:08,566 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:08,566 | INFO | validation_timestamp | 2026-06-05T18:06:08.566322Z
+2026-06-05 14:06:40,500 | INFO | validation_result | cat=Smokey | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,500 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,501 | INFO | validation_timestamp | 2026-06-05T18:06:40.500860Z
+2026-06-05 14:06:40,501 | INFO | validation_result | cat=Boots | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,501 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,501 | INFO | validation_timestamp | 2026-06-05T18:06:40.501548Z
+2026-06-05 14:06:40,501 | INFO | validation_result | cat=Cleo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,501 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,501 | INFO | validation_timestamp | 2026-06-05T18:06:40.501914Z
+2026-06-05 14:06:40,502 | INFO | validation_result | cat=Felix | breed=ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,502 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,502 | INFO | validation_timestamp | 2026-06-05T18:06:40.502258Z
+2026-06-05 14:06:40,502 | INFO | validation_result | cat=Patches | breed=domestic_shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,502 | INFO | validation_timestamp | 2026-06-05T18:06:40.502564Z
+2026-06-05 14:06:40,502 | INFO | validation_result | cat=Oreo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,502 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,502 | INFO | validation_timestamp | 2026-06-05T18:06:40.502888Z
+2026-06-05 14:06:40,503 | INFO | validation_result | cat=Milo | breed=bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,503 | INFO | validation_timestamp | 2026-06-05T18:06:40.503184Z
+2026-06-05 14:06:40,503 | INFO | validation_result | cat=Nala | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,503 | WARNING | validation_warning | cat=Nala | Health conditions suggest medication-related tasks, but none were generated.
+2026-06-05 14:06:40,503 | INFO | validation_timestamp | 2026-06-05T18:06:40.503486Z
+2026-06-05 14:06:40,503 | INFO | validation_result | cat=Coco | breed=abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,503 | INFO | validation_timestamp | 2026-06-05T18:06:40.503782Z
+2026-06-05 14:06:40,504 | INFO | validation_result | cat=Max | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,504 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,504 | INFO | validation_timestamp | 2026-06-05T18:06:40.504131Z
+2026-06-05 14:06:40,505 | INFO | validation_result | cat=Smokey | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,505 | WARNING | validation_warning | cat=Smokey | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,505 | INFO | validation_timestamp | 2026-06-05T18:06:40.505153Z
+2026-06-05 14:06:40,505 | INFO | validation_result | cat=Boots | breed=siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,505 | WARNING | validation_warning | cat=Boots | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,505 | INFO | validation_timestamp | 2026-06-05T18:06:40.505413Z
+2026-06-05 14:06:40,505 | INFO | validation_result | cat=Cleo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,505 | WARNING | validation_warning | cat=Cleo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,505 | INFO | validation_timestamp | 2026-06-05T18:06:40.505794Z
+2026-06-05 14:06:40,506 | INFO | validation_result | cat=Felix | breed=ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,506 | WARNING | validation_warning | cat=Felix | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,506 | INFO | validation_timestamp | 2026-06-05T18:06:40.506154Z
+2026-06-05 14:06:40,506 | INFO | validation_result | cat=Patches | breed=domestic_shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,506 | INFO | validation_timestamp | 2026-06-05T18:06:40.506365Z
+2026-06-05 14:06:40,506 | INFO | validation_result | cat=Oreo | breed=persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,506 | WARNING | validation_warning | cat=Oreo | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,507 | INFO | validation_timestamp | 2026-06-05T18:06:40.507009Z
+2026-06-05 14:06:40,507 | INFO | validation_result | cat=Milo | breed=bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,507 | INFO | validation_timestamp | 2026-06-05T18:06:40.507226Z
+2026-06-05 14:06:40,507 | INFO | validation_result | cat=Nala | breed=siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,507 | INFO | validation_timestamp | 2026-06-05T18:06:40.507664Z
+2026-06-05 14:06:40,508 | INFO | validation_result | cat=Coco | breed=abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 14:06:40,508 | INFO | validation_timestamp | 2026-06-05T18:06:40.508150Z
+2026-06-05 14:06:40,508 | INFO | validation_result | cat=Max | breed=maine_coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 14:06:40,508 | WARNING | validation_warning | cat=Max | Plan is missing baseline daily care categories: litter.
+2026-06-05 14:06:40,508 | INFO | validation_timestamp | 2026-06-05T18:06:40.508522Z

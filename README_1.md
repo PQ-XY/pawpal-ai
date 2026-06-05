@@ -190,6 +190,9 @@ grounded (reasonable baseline advice); the judge labeled them not grounded
 (strict faithfulness). Neither is wrong — it is a definitional boundary on what
 "grounded" means, and it quantifies the judge's strictness offset.
 
+**Failure 4 — forbidden-fact false positive (negation blindness).**
+Two HCM cases were flagged for the forbidden phrase "intense exercise." Investigation showed the plans correctly advised limited intense exercise (from the HCM care requirement "Limited intense exercise"); the naive substring check ignored the negating qualifier. Fixed by making the forbidden-fact check negation-aware (scanning the preceding window for limiters like "limited"/"avoid"/"restrict"), verified to still flag genuine contraindications. Lesson: keyword-based safety checks need negation handling — the same failure mode that affects production content filters.
+
 ### 4.2 Trade-off (one line)
 
 Embedding key-resolution traded a small latency/dependency cost for a large
