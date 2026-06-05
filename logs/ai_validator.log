@@ -157,3 +157,68 @@
 2026-06-05 11:18:11,011 | WARNING | validation_warning | cat=Olive | Plan is missing baseline daily care categories: water.
 2026-06-05 11:18:11,012 | WARNING | validation_warning | cat=Olive | Some retrieved recommended tasks were not included: comfort_monitoring, feeding_ground_level, gentle_play, medication_if_needed, monitoring_mobility, playtime, rest_monitoring, vet_visits_frequent, water_access.
 2026-06-05 11:18:11,012 | INFO | validation_timestamp | 2026-06-05T15:18:11.012273Z
+2026-06-05 11:35:17,277 | INFO | validation_result | cat=Mochi | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:35:17,277 | INFO | validation_timestamp | 2026-06-05T15:35:17.277857Z
+2026-06-05 11:35:39,672 | INFO | validation_result | cat=Luna | breed=Bengal | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:35:39,672 | INFO | validation_timestamp | 2026-06-05T15:35:39.672624Z
+2026-06-05 11:36:03,252 | INFO | validation_result | cat=Shadow | breed=Siamese | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:36:03,253 | INFO | validation_timestamp | 2026-06-05T15:36:03.253173Z
+2026-06-05 11:36:17,414 | INFO | validation_result | cat=Biscuit | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:36:17,415 | INFO | validation_timestamp | 2026-06-05T15:36:17.415237Z
+2026-06-05 11:36:34,864 | INFO | validation_result | cat=Pixel | breed=Abyssinian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:36:34,864 | INFO | validation_timestamp | 2026-06-05T15:36:34.864516Z
+2026-06-05 11:36:52,507 | INFO | validation_result | cat=Tiny | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:36:52,508 | INFO | validation_timestamp | 2026-06-05T15:36:52.508182Z
+2026-06-05 11:37:10,274 | INFO | validation_result | cat=Whiskers | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:37:10,274 | INFO | validation_timestamp | 2026-06-05T15:37:10.274608Z
+2026-06-05 11:37:24,688 | INFO | validation_result | cat=Ginger | breed=Ragdoll | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:37:24,688 | INFO | validation_timestamp | 2026-06-05T15:37:24.688756Z
+2026-06-05 11:37:43,802 | INFO | validation_result | cat=Smokey | breed=Siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:37:43,802 | WARNING | validation_warning | cat=Smokey | Some retrieved recommended tasks were not included: comfort_monitoring, interaction, medication, medication_if_needed, training.
+2026-06-05 11:37:43,803 | INFO | validation_timestamp | 2026-06-05T15:37:43.803049Z
+2026-06-05 11:38:01,421 | INFO | validation_result | cat=Boots | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:38:01,421 | WARNING | validation_warning | cat=Boots | Some retrieved recommended tasks were not included: comfort_monitoring, exercise, medication_if_needed, training, vet_visits_frequent.
+2026-06-05 11:38:01,422 | INFO | validation_timestamp | 2026-06-05T15:38:01.422060Z
+2026-06-05 11:38:18,131 | INFO | validation_result | cat=Cleo | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:38:18,131 | WARNING | validation_warning | cat=Cleo | Some retrieved recommended tasks were not included: comfort_monitoring, feeding_controlled, grooming, medication_if_needed, vet_visits_frequent.
+2026-06-05 11:38:18,131 | INFO | validation_timestamp | 2026-06-05T15:38:18.131763Z
+2026-06-05 11:38:39,511 | INFO | validation_result | cat=Felix | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:38:39,511 | WARNING | validation_warning | cat=Felix | Some retrieved recommended tasks were not included: comfort_monitoring, interaction, medication_if_needed, rest_monitoring, vet_visits_frequent.
+2026-06-05 11:38:39,511 | INFO | validation_timestamp | 2026-06-05T15:38:39.511837Z
+2026-06-05 11:38:57,899 | INFO | validation_result | cat=Patches | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:38:57,899 | INFO | validation_timestamp | 2026-06-05T15:38:57.899627Z
+2026-06-05 11:39:20,902 | INFO | validation_result | cat=Oreo | breed=Persian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:39:20,902 | WARNING | validation_warning | cat=Oreo | Some retrieved recommended tasks were not included: comfort_monitoring, eye_care, feeding_ground_level, gentle_play, medication_if_needed, monitoring_mobility, playtime, vet_visits_frequent.
+2026-06-05 11:39:20,902 | INFO | validation_timestamp | 2026-06-05T15:39:20.902655Z
+2026-06-05 11:39:39,430 | INFO | validation_result | cat=Milo | breed=Bengal | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:39:39,430 | WARNING | validation_warning | cat=Milo | Some retrieved recommended tasks were not included: exercise, feeding_quality, grooming, medication_as_needed, training.
+2026-06-05 11:39:39,430 | INFO | validation_timestamp | 2026-06-05T15:39:39.430860Z
+2026-06-05 11:39:58,533 | INFO | validation_result | cat=Nala | breed=Siamese | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:39:58,534 | WARNING | validation_warning | cat=Nala | Some retrieved recommended tasks were not included: grooming, interaction, training, vet_visits.
+2026-06-05 11:39:58,534 | INFO | validation_timestamp | 2026-06-05T15:39:58.534298Z
+2026-06-05 11:40:13,864 | INFO | validation_result | cat=Simba | breed=Maine Coon | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:40:13,864 | INFO | validation_timestamp | 2026-06-05T15:40:13.864941Z
+2026-06-05 11:40:37,155 | INFO | validation_result | cat=Coco | breed=Abyssinian | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:40:37,155 | WARNING | validation_warning | cat=Coco | Some retrieved recommended tasks were not included: comfort_monitoring, environmental_enrichment, exercise, feeding_controlled, gentle_play, grooming, medication_if_needed, playtime_intensive, training, vet_visits_frequent.
+2026-06-05 11:40:37,155 | INFO | validation_timestamp | 2026-06-05T15:40:37.155420Z
+2026-06-05 11:40:57,434 | INFO | validation_result | cat=Bella | breed=Persian | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:40:57,434 | INFO | validation_timestamp | 2026-06-05T15:40:57.434440Z
+2026-06-05 11:41:15,022 | INFO | validation_result | cat=Jasper | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
+2026-06-05 11:41:15,023 | INFO | validation_timestamp | 2026-06-05T15:41:15.023145Z
+2026-06-05 11:41:34,844 | INFO | validation_result | cat=Lily | breed=Ragdoll | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:41:34,844 | WARNING | validation_warning | cat=Lily | Some retrieved recommended tasks were not included: comfort_monitoring, interaction, medication, medication_if_needed.
+2026-06-05 11:41:34,844 | INFO | validation_timestamp | 2026-06-05T15:41:34.844426Z
+2026-06-05 11:41:51,739 | INFO | validation_result | cat=Rocky | breed=Bengal | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:41:51,739 | WARNING | validation_warning | cat=Rocky | Some retrieved recommended tasks were not included: exercise, gentle_play, grooming, playtime, training.
+2026-06-05 11:41:51,739 | INFO | validation_timestamp | 2026-06-05T15:41:51.739492Z
+2026-06-05 11:42:09,220 | INFO | validation_result | cat=Daisy | breed=Abyssinian | passed=True | score=0.94 | errors=0 | warnings=2
+2026-06-05 11:42:09,220 | WARNING | validation_warning | cat=Daisy | Plan is missing baseline daily care categories: water.
+2026-06-05 11:42:09,220 | WARNING | validation_warning | cat=Daisy | Some retrieved recommended tasks were not included: comfort_monitoring, environmental_enrichment, exercise, feeding_ground_level, grooming, medication_if_needed, monitoring_mobility, playtime_intensive, training, vet_visits_frequent, water_access.
+2026-06-05 11:42:09,220 | INFO | validation_timestamp | 2026-06-05T15:42:09.220835Z
+2026-06-05 11:42:31,796 | INFO | validation_result | cat=Max | breed=Domestic Shorthair | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-05 11:42:31,796 | WARNING | validation_warning | cat=Max | Some retrieved recommended tasks were not included: comfort_monitoring, exercise, feeding_ground_level, grooming, medication_if_needed, monitoring, monitoring_mobility.
+2026-06-05 11:42:31,797 | INFO | validation_timestamp | 2026-06-05T15:42:31.797081Z
+2026-06-05 11:42:51,080 | INFO | validation_result | cat=Olive | breed=Persian | passed=True | score=0.94 | errors=0 | warnings=2
+2026-06-05 11:42:51,081 | WARNING | validation_warning | cat=Olive | Plan is missing baseline daily care categories: water.
+2026-06-05 11:42:51,081 | WARNING | validation_warning | cat=Olive | Some retrieved recommended tasks were not included: comfort_monitoring, feeding_ground_level, gentle_play, medication_if_needed, monitoring_mobility, playtime, rest_monitoring, vet_visits_frequent, water_access.
+2026-06-05 11:42:51,081 | INFO | validation_timestamp | 2026-06-05T15:42:51.081285Z
