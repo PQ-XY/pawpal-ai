@@ -87,7 +87,13 @@ PlanValidator  ──►  guardrails: schema, priority/confidence ranges,
         │            [Security / Governance component]
         ▼
 Human-in-the-loop approval  ──►  approved tasks scheduled
-        [HITL / orchestration component]
+  [HITL / orchestration component]
+        │
+        ▼
+MCP Calendar Server (FastMCP)  ──►  persist events to `mcp_server/calendar_store.json`
+        │
+        ▼
+Scheduler / Dashboard (conflicts, reschedule, overview)
 ```
 
 ## System Diagram
