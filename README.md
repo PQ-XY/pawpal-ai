@@ -282,8 +282,6 @@ Current automated tests in `tests/test_pawpal.py` cover scheduler logic from the
 
 ### Eval
 
-Four builds, reusing the S12 framework.
-
 | Build | Output | What it does |
 | --- | --- | --- |
 | Golden set | `eval/golden.jsonl` (25), `eval/golden_paraphrase.jsonl` (10) | each case has input / expected task coverage / expected grounding / forbidden facts / tags |
