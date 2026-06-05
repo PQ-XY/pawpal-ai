@@ -280,24 +280,6 @@ Current automated tests in `tests/test_pawpal.py` cover scheduler logic from the
 
 ---
 
-## Known Limitations
-
-- AI task-to-enum mapping is heuristic (not ontology-based)
-- Suggested times are parsed with best-effort rules
-- Validation warnings do not hard-block adding tasks
-- Knowledge base is local JSON (no vector DB yet)
-- State is in-memory during runtime (no persistent database storage)
-
----
-
-## Next Improvements
-
-- Add unit tests for `knowledge_retriever.py`, `ai_agent.py`, and `ai_validator.py`
-- Add stricter validator enforcement mode (block on failed validation)
-- Add optional vector search for semantic retrieval
-- Add persistent storage for plans and validation reports
-
-
 ### Eval
 
 Four builds, reusing the S12 framework.
@@ -468,3 +450,18 @@ python -m eval.sheet_from_judge --judge eval/judge_labels_llm.jsonl   # then han
 python -m eval.cohens_kappa --human eval/human_labels.jsonl --judge eval/judge_labels_llm.jsonl
 ```
 
+---
+
+## Known Limitations
+
+- AI task-to-enum mapping is heuristic (not ontology-based)
+- Knowledge base is local JSON (no vector DB yet)
+- State is in-memory during runtime (no persistent database storage)
+
+---
+
+## Next Improvements
+
+- Add stricter validator enforcement mode (block on failed validation)
+- Add optional vector search for semantic retrieval
+- Add persistent storage for plans and validation reports
