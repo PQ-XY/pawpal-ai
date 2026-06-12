@@ -2,7 +2,7 @@
 
 **Version**: 3.0  
 **Date**: June 2026  
-**Status**: RAG, MCP, EVAL
+**Status**: RAG, MCP, Security/Governace, EVAL
 
 ---
 
