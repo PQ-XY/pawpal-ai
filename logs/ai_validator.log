@@ -520,3 +520,6 @@
 2026-06-05 14:06:40,508 | INFO | validation_timestamp | 2026-06-05T18:06:40.508522Z
 2026-06-05 16:25:17,155 | INFO | validation_result | cat=Mochi | breed=Domestic Shorthair | passed=True | score=1.00 | errors=0 | warnings=0
 2026-06-05 16:25:17,156 | INFO | validation_timestamp | 2026-06-05T20:25:17.156297Z
+2026-06-12 19:35:04,512 | INFO | validation_result | cat=Mochi | breed=Maine Coon | passed=True | score=0.97 | errors=0 | warnings=1
+2026-06-12 19:35:04,514 | WARNING | validation_warning | cat=Mochi | Some retrieved recommended tasks were not included: training.
+2026-06-12 19:35:04,514 | INFO | validation_timestamp | 2026-06-12T23:35:04.514178Z
